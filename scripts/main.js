@@ -37,7 +37,7 @@ captureApp.prototype = {
             that._captureSuccess.apply(that, arguments);
         }, function() { 
             captureApp._captureError.apply(that, arguments);
-        }, {limit:1});
+        }, {duration:2});
     },
     
     _capureAudio:function() {
